@@ -11,4 +11,5 @@ The user input is validated if it only contains letters. If there are digits or 
 The exception is an apostrophe, since it can a valid character in a word, e.g. "McDonald's restaurants" = "Uncle Sam's standard rot".
 
 ## Technical instructions
-This project is developed IntelliJ. The .idea files are commited, so it can be opened and executed with IntelliJ.
+This project is developed in IntelliJ. The .idea files are commited, so it can be opened and executed with IntelliJ.
+Otherwise, the application can be built by Gradle and the jar-file opened via the command line.

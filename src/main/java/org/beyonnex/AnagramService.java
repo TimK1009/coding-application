@@ -49,7 +49,7 @@ public class AnagramService {
     }
 
     /*
-     * Filter out digits and special characters, except apostrophe.
+     * Filter for digits and special characters, except apostrophe.
      * */
     private boolean containsDigitsOrSpecialChars(final String input) {
         return input.chars().anyMatch(c -> !Character.isLetter(c) && !Character.isWhitespace(c) && c != '\'');

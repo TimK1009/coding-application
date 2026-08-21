@@ -37,7 +37,7 @@ public class Main {
         try {
             final boolean isAnagram = anagramService.runAnagramCheck(input1, input2);
             printAnagramCheckResult(input1, input2, isAnagram);
-        } catch (IllegalArgumentException ex) {
+        } catch (final IllegalArgumentException ex) {
             printError(ex.getMessage());
         }
     }
@@ -48,7 +48,7 @@ public class Main {
         try {
             final List<String> matches = anagramService.runAnagramLookup(input);
             printAnagramLookupResult(matches);
-        } catch (IllegalArgumentException ex) {
+        } catch (final IllegalArgumentException ex) {
             printError(ex.getMessage());
         }
     }
